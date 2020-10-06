@@ -1,0 +1,201 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+    background: rgb(255, 247, 224);
+    color: brown;
+}
+
+/* NAVIGASI */
+.navbar {
+    background-color: rgb(255, 225, 91);
+}
+
+.navbar .container .navbar-brand h1 {
+    color: rgb(153, 52, 52);
+    font-family: 'Merienda', cursive;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-style: normal;
+    color: brown;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.navbar span .nav-link {
+    font-style: normal;
+    color: brown;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.navbar span .nav-link:hover {
+    color: black;
+}
+
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgb(0, 0, 0);
+}
+
+nav .navbar-collapse .btn {
+    background-color: brown;
+    border-radius: 100px;
+    box-shadow: 0px 4px 20px rgba(251, 123, 67, 0.3);
+    padding: 5px 20px 5px 20px;
+    width: 120px;
+    height: 42px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .navbar-collapse .btn:hover {
+    background-color: rgb(99, 53, 26);
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    background-color: rgb(255, 247, 224);
+    color: brown;
+}
+
+.jumbotron h1 {
+    font-size: 48.6544px;
+    font-family: 'Lora';
+    font-style: normal;
+}
+
+.jumbotron p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.jumbotron .container .img {
+    position: relative;
+}
+
+.jumbotron .container .login {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    bottom: 50px;
+    left: 300px;
+}
+
+.jumbotron .container img {
+    width: 480px;
+    height: 386px;
+    border-radius: 30px;
+}
+
+
+/* ABOUT US */
+.About {
+    margin-top: 60px;
+}
+
+.About .row {
+    margin-top: 40px;
+}
+
+.About .container .title h2 {
+    text-align: center;
+}
+
+.About img {
+    width: 480px;
+    height: 386px;
+    border-radius: 30px;
+}
+
+.About .caption h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+}
+
+.About hr {
+    background: brown;
+    width: 67px;
+    height: 4px;
+    text-align: center;
+    border-radius: 2000px;
+}
+
+.About p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+/* PRODUCT */
+.product {
+    margin-top: 80px;
+}
+
+.product h1 {
+    text-align: center;
+}
+
+.product .img-product {
+    width: "182px";
+    height: "180px";
+    text-align: center;
+    align-items: center;
+}
+
+.product h1 {
+    font-size: 28px;
+}
+
+.product .img-product .caption p {
+    font-size: 14px;
+    color: #B7B7B7;
+}
+
+.product .img-product .caption h2 {
+    font-size: 17px;
+    line-height: 32px;
+    color: brown;
+}
+
+.product .img-product .caption h3 {
+    font-size: 14px;
+    color: brown;
+}
+
+.product .img-product .card {
+    background: none;
+    padding: 10px 10px;
+    border: none;
+}
+
+.product .img-product .card:hover {
+
+    margin-top: -10px;
+}
+
+/* Footer */
+footer {
+    background: rgb(255, 225, 91);
+    border-radius: 200px 200px 0px 0px;
+}
+
+footer .row {
+    font-style: normal;
+    line-height: 20px;
+    color: brown;
+}
+
+footer ul li a {
+    line-height: 128.1%;
+    color: brown;
+}
+
+footer ul li p a:hover {
+    color: black;
+}
